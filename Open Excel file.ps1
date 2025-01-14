@@ -78,7 +78,7 @@ try {
     #endregion
 
     #region Start Excel
-    Write-Verbose 'Open Excel file'
+    Write-Verbose 'Start Excel'
 
     try {
         $excel = New-Object -ComObject Excel.Application -Verbose:$false
