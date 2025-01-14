@@ -20,6 +20,10 @@
     .PARAMETER SaveChangesInExcel
         Save changes in Excel file on TRUE, else no changes are saved.
 
+    .PARAMETER ShowExcelFileAndDisplayAlerts
+        Visually opens the Excel file so progress can be monitored. Best used
+        for troubleshooting, to see what's happening.
+
     .PARAMETER MaxWaitTimeSeconds
         Total time to wait for Excel to finish.
 #>
